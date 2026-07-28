@@ -50,3 +50,8 @@ coverage/
 .DS_Store
 Thumbs.db
 Desktop.ini
+# ==================================================
+# IDE & Editor Settings
+# ==================================================
+.vscode/
+.idea/
