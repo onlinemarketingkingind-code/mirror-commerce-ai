@@ -56,3 +56,40 @@ The primary objective is to demonstrate how AI, computer vision, and generative 
 - Help users discover products that match their needs.
 - Simplify the online shopping experience using AI.
 - Deliver fast, intuitive and personalised recommendations.
+
+---
+
+# AI Development Guidelines
+
+Every AI coding assistant (Lovable, Codex, Claude Code, Cursor, ChatGPT, Gemini, etc.) must follow these rules when working on this project.
+
+## General Rules
+
+- Read this document before generating or modifying code.
+- Review the relevant documentation inside the `/docs` directory.
+- Never change the project architecture without updating the documentation.
+- Follow the project's coding standards and naming conventions.
+- Keep the codebase clean, modular and maintainable.
+- Avoid unnecessary dependencies.
+- Prefer reusable components over duplicated code.
+
+## Documentation Rules
+
+- Update documentation whenever a major architectural or functional change is made.
+- Keep the documentation consistent with the implementation.
+- Archive obsolete documentation instead of deleting it.
+
+## Security Rules
+
+- Never hardcode API keys or secrets.
+- Use environment variables for all sensitive configuration.
+- Validate all user input.
+- Follow secure authentication and authorization practices.
+
+## Code Quality Rules
+
+- Write readable and self-documenting code.
+- Use TypeScript wherever possible.
+- Prefer composition over duplication.
+- Keep functions focused on a single responsibility.
+- Test new features before marking them as complete.
