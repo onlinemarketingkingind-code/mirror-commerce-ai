@@ -1,30 +1,15 @@
 # MirrorCommerce AI
 
-Your Personal AI Shopping Concierge
+> **Your Personal AI Shopping Concierge**
 
-MirrorCommerce AI combines Perfect Corp.'s YouCam APIs with OpenAI to deliver intelligent shopping experiences through AI Skin Analysis, Virtual Try-On, and personalized product recommendations.
+MirrorCommerce AI is an AI-powered shopping assistant built for the **Perfect Corp. YouCam AI Hackathon**. It combines **Perfect Corp.'s YouCam APIs** with **OpenAI** to deliver intelligent shopping experiences through AI Skin Analysis, Virtual Try-On, and personalized product recommendations.
 
-## Tech Stack
+---
 
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- Supabase
-- OpenAI
-- YouCam APIs
-- Vercel
+## 🚀 Project Status
 
-## Documentation
+**Current Phase:** Planning & Documentation Complete ✅
 
-See the `/docs` directory.
+Development begins after the project foundation and architecture are finalized.
 
-## Current Status
-
-✅ Product Requirements Document (PRD)
-
-🚧 Development Starting
-
-## License
-
-MIT
+---
