@@ -32,3 +32,27 @@ The platform combines:
 to create an intelligent shopping experience that helps users discover products through AI Skin Analysis, Virtual Try-On, and personalized recommendations.
 
 The primary objective is to demonstrate how AI, computer vision, and generative intelligence can improve online shopping while maintaining a scalable, production-ready architecture.
+
+---
+
+# Project Goals
+
+## Business Goals
+
+- Build an AI-powered shopping experience using Perfect Corp. YouCam APIs and OpenAI.
+- Deliver a polished, production-ready application for the Perfect Corp. YouCam AI Hackathon.
+- Demonstrate a scalable architecture suitable for future commercial development.
+
+## Technical Goals
+
+- Build a modern full-stack application using Next.js 15 and React 19.
+- Implement secure authentication and data storage with Supabase.
+- Integrate Perfect Corp. YouCam APIs for AI Skin Analysis and Virtual Try-On.
+- Use OpenAI to generate intelligent product recommendations.
+- Deploy the application on Vercel with a production-ready workflow.
+
+## User Goals
+
+- Help users discover products that match their needs.
+- Simplify the online shopping experience using AI.
+- Deliver fast, intuitive and personalised recommendations.
