@@ -93,3 +93,51 @@ Every AI coding assistant (Lovable, Codex, Claude Code, Cursor, ChatGPT, Gemini,
 - Prefer composition over duplication.
 - Keep functions focused on a single responsibility.
 - Test new features before marking them as complete.
+
+  ---
+
+# Project Structure
+
+```
+mirror-commerce-ai/
+│
+├── README.md
+├── PROJECT_CONTEXT.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── .gitignore
+│
+├── docs/
+│   ├── README.md
+│   ├── CHANGELOG.md
+│   ├── assets/
+│   ├── archive/
+│   ├── 01-Product-Foundation.md
+│   ├── 02-Product-Design.md
+│   ├── 03-Technical-Design.md
+│   ├── 04-Development-Roadmap.md
+│   ├── 05-AI-Development-Rules.md
+│   ├── 06-Prompting-Guide.md
+│   └── 07-Project-Progress.md
+│
+├── app/
+├── components/
+├── lib/
+├── public/
+├── styles/
+└── supabase/
+```
+
+## Documentation Reading Order
+
+AI coding assistants should read the documentation in the following order:
+
+1. PROJECT_CONTEXT.md
+2. docs/01-Product-Foundation.md
+3. docs/02-Product-Design.md
+4. docs/03-Technical-Design.md
+5. docs/04-Development-Roadmap.md
+6. docs/05-AI-Development-Rules.md
+7. docs/06-Prompting-Guide.md
+8. docs/07-Project-Progress.md
