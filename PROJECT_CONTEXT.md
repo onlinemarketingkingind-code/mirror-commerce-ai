@@ -29,9 +29,9 @@ The platform combines:
 - React
 - TypeScript
 
-to create an intelligent shopping experience that helps users discover products through AI Skin Analysis, Virtual Try-On, and personalized recommendations.
+to create an intelligent shopping experience that helps users discover products through AI Skin Analysis, Virtual Try-On, and personalised product recommendations.
 
-The primary objective is to demonstrate how AI, computer vision, and generative intelligence can improve online shopping while maintaining a scalable, production-ready architecture.
+The primary objective is to demonstrate how AI, computer vision and generative intelligence can improve online shopping while maintaining a scalable, production-ready architecture.
 
 ---
 
@@ -49,7 +49,7 @@ The primary objective is to demonstrate how AI, computer vision, and generative 
 - Implement secure authentication and data storage with Supabase.
 - Integrate Perfect Corp. YouCam APIs for AI Skin Analysis and Virtual Try-On.
 - Use OpenAI to generate intelligent product recommendations.
-- Deploy the application on Vercel with a production-ready workflow.
+- Deploy the application on Vercel using a production-ready workflow.
 
 ## User Goals
 
@@ -84,7 +84,7 @@ Every AI coding assistant (Lovable, Codex, Claude Code, Cursor, ChatGPT, Gemini,
 - Never hardcode API keys or secrets.
 - Use environment variables for all sensitive configuration.
 - Validate all user input.
-- Follow secure authentication and authorization practices.
+- Follow secure authentication and authorisation practices.
 
 ## Code Quality Rules
 
@@ -94,11 +94,11 @@ Every AI coding assistant (Lovable, Codex, Claude Code, Cursor, ChatGPT, Gemini,
 - Keep functions focused on a single responsibility.
 - Test new features before marking them as complete.
 
-  ---
+---
 
 # Project Structure
 
-```
+```text
 mirror-commerce-ai/
 │
 ├── README.md
@@ -128,6 +128,20 @@ mirror-commerce-ai/
 ├── styles/
 └── supabase/
 ```
+
+## Documentation Reading Order
+
+Every AI coding assistant should read the documentation in the following order:
+
+1. `PROJECT_CONTEXT.md`
+2. `docs/01-Product-Foundation.md`
+3. `docs/02-Product-Design.md`
+4. `docs/03-Technical-Design.md`
+5. `docs/04-Development-Roadmap.md`
+6. `docs/05-AI-Development-Rules.md`
+7. `docs/06-Prompting-Guide.md`
+8. `docs/07-Project-Progress.md`
+
 ---
 
 # Current Development Status
@@ -140,13 +154,14 @@ mirror-commerce-ai/
 - Development roadmap
 - AI development guidelines
 - Git repository setup
-- Documentation structure
+- Repository documentation
 - README
+- PROJECT_CONTEXT
 - .gitignore
 
 ## In Progress
 
-- Next.js project initialization
+- Next.js project initialisation
 - Project setup
 - Core application architecture
 
@@ -157,20 +172,38 @@ mirror-commerce-ai/
 - AI Skin Analysis
 - Virtual Try-On
 - AI Recommendation Engine
+- Database integration
 - Testing
 - Deployment
-- Hackathon Submission
+- Hackathon submission
 
+---
 
-## Documentation Reading Order
+# AI Assistant Workflow
 
-AI coding assistants should read the documentation in the following order:
+Before generating or modifying code, every AI coding assistant should follow this workflow:
 
-1. PROJECT_CONTEXT.md
-2. docs/01-Product-Foundation.md
-3. docs/02-Product-Design.md
-4. docs/03-Technical-Design.md
-5. docs/04-Development-Roadmap.md
-6. docs/05-AI-Development-Rules.md
-7. docs/06-Prompting-Guide.md
-8. docs/07-Project-Progress.md
+1. Read `PROJECT_CONTEXT.md`.
+2. Review the relevant documentation inside the `/docs` directory.
+3. Understand the current development status.
+4. Follow the AI Development Guidelines.
+5. Implement only the requested feature.
+6. Keep the implementation modular and maintainable.
+7. Update documentation whenever architecture or functionality changes.
+8. Update `docs/07-Project-Progress.md` after completing significant work.
+
+The objective is to keep every AI coding session consistent, maintainable and aligned with the project's vision, architecture and long-term goals.
+
+---
+
+# Definition of Success
+
+MirrorCommerce AI is considered successful when:
+
+- The application is fully functional and production-ready.
+- AI Skin Analysis is successfully integrated.
+- Virtual Try-On works correctly using Perfect Corp. APIs.
+- OpenAI provides accurate and useful product recommendations.
+- The application is deployed successfully on Vercel.
+- The documentation remains synchronised with the implementation.
+- Every AI coding assistant can understand the project by reading this document and the documentation in `/docs`.
