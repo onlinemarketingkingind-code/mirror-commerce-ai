@@ -46,3 +46,16 @@ When contributing to MirrorCommerce AI, follow these standards:
 - Test changes before submitting.
 
 ---
+## Pull Request Guidelines
+
+Before submitting a pull request, ensure that:
+
+- Your changes are focused on a single feature, bug fix or improvement.
+- The project builds successfully.
+- Existing functionality is not broken.
+- Documentation has been updated if necessary.
+- Code follows the project's coding standards.
+- Unnecessary files are not included in the commit.
+- Commit messages are clear and descriptive.
+
+---
