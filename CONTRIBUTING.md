@@ -20,3 +20,14 @@ We welcome ideas, suggestions and improvements that align with the project's vis
 - Focus on solving problems rather than creating unnecessary complexity.
 
 ---
+## Before You Contribute
+
+Before creating or modifying code, please:
+
+1. Read `PROJECT_CONTEXT.md`.
+2. Review the relevant documentation in the `/docs` directory.
+3. Understand the current project architecture.
+4. Follow the AI Development Guidelines.
+5. Keep your changes focused on a single feature or improvement.
+
+---
