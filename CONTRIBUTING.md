@@ -70,3 +70,27 @@ If you discover a bug or would like to request a new feature:
 5. Keep issue reports focused on one topic.
 
 ---
+## AI Contribution Guidelines
+
+AI coding assistants (Lovable, Codex, Claude Code, Cursor, ChatGPT, Gemini, etc.) should:
+
+- Read `PROJECT_CONTEXT.md` before generating code.
+- Follow the documentation in the `/docs` directory.
+- Respect the project architecture.
+- Produce modular, maintainable and production-ready code.
+- Update documentation when architecture or functionality changes.
+- Never expose API keys, secrets or sensitive information.
+- Avoid introducing unnecessary dependencies.
+
+---
+## Thank You
+
+Thank you for contributing to MirrorCommerce AI.
+
+Every contribution, whether it improves documentation, fixes a bug, adds a feature or refines the architecture, helps make the project stronger.
+
+Together we can build an intelligent, scalable and production-ready AI shopping experience.
+
+---
+
+**Happy Coding! 🚀**
