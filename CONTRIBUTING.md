@@ -59,3 +59,14 @@ Before submitting a pull request, ensure that:
 - Commit messages are clear and descriptive.
 
 ---
+## Reporting Issues
+
+If you discover a bug or would like to request a new feature:
+
+1. Search existing issues before creating a new one.
+2. Clearly describe the problem or feature request.
+3. Include steps to reproduce the issue, if applicable.
+4. Provide screenshots or logs when they help explain the problem.
+5. Keep issue reports focused on one topic.
+
+---
