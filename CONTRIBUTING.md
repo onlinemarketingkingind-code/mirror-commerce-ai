@@ -31,3 +31,18 @@ Before creating or modifying code, please:
 5. Keep your changes focused on a single feature or improvement.
 
 ---
+## Coding Standards
+
+When contributing to MirrorCommerce AI, follow these standards:
+
+- Use TypeScript for all new code.
+- Follow the existing folder structure.
+- Write modular and reusable components.
+- Avoid duplicated code.
+- Use meaningful variable, function and component names.
+- Keep functions focused on a single responsibility.
+- Write clean, readable and maintainable code.
+- Never hardcode secrets or API keys.
+- Test changes before submitting.
+
+---
